@@ -1,5 +1,4 @@
 RegisterCommand('tpm', function (source)
-    print(source)
     TriggerClientEvent('commands:TeleportToWayPoint', source, source)
 end)
 
