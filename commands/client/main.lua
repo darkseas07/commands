@@ -35,8 +35,6 @@ RegisterNetEvent("commands:setHealth")
 AddEventHandler("commands:setHealth", function (source, args)
     if args[1] == nil then
         local playerSrc = GetPlayerPed(GetPlayerFromServerId(source))
-        print(source)
-        print(playerSrc)
         SetEntityHealth(playerSrc, 200)
         TriggerEvent('chat:addMessage', {
             color = {0, 0 ,0},
@@ -59,8 +57,6 @@ RegisterNetEvent("commands:setArmor")
 AddEventHandler("commands:setArmor", function (source, args)
     if args[1] == nil then
         local playerSrc = GetPlayerPed(GetPlayerFromServerId(source))
-        print(source)
-        print(playerSrc)
         SetPedArmour(playerSrc, 200)
         TriggerEvent('chat:addMessage', {
             color = {0, 0 ,0},
