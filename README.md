@@ -12,7 +12,7 @@ Darkseas - bodyguard
 - <b><i>/tpm</b></i> -> After you mark the place you want to go on the map, you will be teleported to the place you marked by typing <b>"/tpm"</b>.
 - <b><i>/setHealth</b></i> -> You can give yourself life by typing <b>"/setHealth [value]"</b>. The value parameter is not required.
 - <b><i>/setArmor</b></i> -> You can give yourself armor by typing <b>"/setArmor [value]"</b>. The value parameter is not required.
-- <b><i>/sc</b></i> -> You can extract a tool by typing <b>"/sc [model]"</b>. The model parameter is required and must be a valid vehicle name.
+- <b><i>/sc</b></i> -> You can spawn a vehicle by typing <b>"/sc [model]"</b>. The model parameter is required and must be a valid vehicle name.
 
 <b>I hope you will like, and sorry for my English!</b>
 
